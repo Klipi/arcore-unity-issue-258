@@ -1,0 +1,239 @@
+06-12 15:51:48.351 6498-6578/? I/AppsModel: Removed in mAllAppsComponentKey : IconInfo(title=Fliptest intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.fliptest/com.unity3d.player.UnityPlayerActivity (has extras) } id=107 type=0 container=-102 screen=1 cellX=1 cellY=1 spanX=1 spanY=1 rank=5 hidden=0 dropPos=null user=UserHandle{0})
+06-12 15:52:22.755 1399-1399/? E/adbd: recv: OPEN 00000854 00000000 0092:73 68 65 6C 6C 3A 61 6D 20 73 74 61 72 74 20 2D 6E 20 22 63 6F 6D 2E 65 78 61 6D 70 6C 65 2E 66 6C 69 70 74 65 73 74 2F 63 6F 6D 2E 75 6E 69 74 79 33 64 2E 70 6C 61 79 65 72 2E 55 6E 69 74 79 50 6C 61 79 65 72 41 63 74 69 76 69 74 79 22 20 2D 61 20 61 6E 64 72 6F 69 64 2E 69 6E 74 65 6E 74 2E 61 63 74 69 6F 6E 2E 4D 41 49 4E 20 2D 63 20 61 6E 64 72 6F 69 64 2E 69 6E 74 65 6E 74 2E 63 61 74 65 67 6F 72 79 2E 4C 41 55 4E 43 48 45 52 00 
+    service_to_fd: shell:am start -n "com.example.fliptest/com.unity3d.player.UnityPlayerActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+06-12 15:52:22.851 5039-17295/? I/ActivityManager: START u0 {act=android.intent.action.MAIN typ=null flg=0x10000000 cmp=ComponentInfo{com.example.fliptest/com.unity3d.player.UnityPlayerActivity}} from uid 2000
+06-12 15:52:22.895 6498-6578/? V/LauncherApps: Returning activity for profile UserHandle{0} : ComponentInfo{com.example.fliptest/com.unity3d.player.UnityPlayerActivity}
+06-12 15:52:22.916 5039-17295/? I/CustomStartingWindowData: CustomStartingWindow : com.example.fliptest/com.unity3d.player.UnityPlayerActivityisFixedOrientationfalse
+06-12 15:52:22.930 6498-6578/? V/LauncherApps: Returning activity for profile UserHandle{0} : ComponentInfo{com.example.fliptest/com.unity3d.player.UnityPlayerActivity}
+06-12 15:52:22.932 6498-6578/? I/AppsModel: addOrUpdater
+    addOrUpdater cn = ComponentInfo{com.example.fliptest/com.unity3d.player.UnityPlayerActivity} , UserHandle{0}
+06-12 15:52:22.936 6498-6578/? I/AppsModel: addOrUpdater update item = IconInfo(title=Fliptest intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.fliptest/com.unity3d.player.UnityPlayerActivity (has extras) } id=108 type=0 container=-102 screen=-1 cellX=-1 cellY=-1 spanX=1 spanY=1 rank=-1 hidden=0 dropPos=null user=UserHandle{0})
+06-12 15:52:22.938 5039-5050/? I/ActivityManager: Start proc 28420:com.example.fliptest/u0a242 for activity com.example.fliptest/com.unity3d.player.UnityPlayerActivity
+06-12 15:52:23.002 5039-5468/? D/GameManagerService: handleForegroundChange(). pkgName: com.example.fliptest, clsName: com.unity3d.player.UnityPlayerActivity,FgActivityName:com.example.fliptest/com.unity3d.player.UnityPlayerActivity
+06-12 15:52:23.002 8747-8759/? I/TrayUsageStatesWatcher: noteResumeComponent : ComponentInfo{com.example.fliptest/com.unity3d.player.UnityPlayerActivity}
+06-12 15:52:23.128 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: setView = DecorView@e60e684[UnityPlayerActivity] TM=true MM=false
+06-12 15:52:23.135 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: dispatchAttachedToWindow
+06-12 15:52:23.139 5039-17295/? V/WindowManager: Relayout Window{1d56543 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity}: viewVisibility=0 req=1080x1848 WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#80810500 pfl=0x20000 wanim=0x10302fd vsysui=0x600 needsMenuKey=2 colorMode=0 naviIconColor=0}
+06-12 15:52:23.141 3194-3194/? I/SurfaceFlinger: id=2924 createSurf (1080x1920),2 flag=404, com.example.fliptest/com.unity3d.player.UnityPlayerActivity#0
+06-12 15:52:23.145 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: Relayout returned: old=[0,0][0,0] new=[0,0][1080,1920] result=0x7 surface={valid=true 3668441088} changed=true
+06-12 15:52:23.146 3194-3194/? I/SurfaceFlinger: id=2925 createSurf (1080x1920),1 flag=4, SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0#0
+06-12 15:52:23.147 3194-3194/? I/SurfaceFlinger: id=2926 createSurf (1080x1920),-1 flag=20004, Background for - SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0#0
+06-12 15:52:23.147 28420-28420/? D/SurfaceView: BG hide() Surface(name=Background for - SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0) false true android.view.SurfaceView{bce0aa2 VFE...... .F....ID 0,0-1080,1920}
+06-12 15:52:23.152 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1080, 1920) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=1
+    MSG_WINDOW_FOCUS_CHANGED 1
+06-12 15:52:23.161 5039-5185/? D/MdnieScenarioControlService:  packageName : com.example.fliptest    className : com.unity3d.player.UnityPlayerActivity
+06-12 15:52:23.163 28420-28456/? D/Unity: Loading ARCore V1+ path.
+06-12 15:52:23.165 28420-28456/? I/ArPresto: ArCoreUnity_onUnityPlayerInitialize
+06-12 15:52:23.166 28420-28456/? I/ArPresto: ArCoreUnity_getARCoreSupportStatus, expected_api_level=1, supported_api_level=1
+    ArCoreUnity_onUnityPlayerResume
+    ArPresto_handleActivityResume
+06-12 15:52:23.170 5039-5961/? V/WindowManager: Relayout Window{1d56543 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity}: viewVisibility=0 req=1080x1920 WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#80810500 pfl=0x20000 fmt=-3 wanim=0x10302fd vsysui=0x600 needsMenuKey=2 colorMode=0 naviIconColor=0}
+06-12 15:52:23.171 3194-3194/? D/SurfaceFlinger: duplicate layer name: changing com.example.fliptest/com.unity3d.player.UnityPlayerActivity to com.example.fliptest/com.unity3d.player.UnityPlayerActivity#1
+06-12 15:52:23.172 3194-3194/? I/SurfaceFlinger: id=2927 createSurf (1080x1920),1 flag=4, com.example.fliptest/com.unity3d.player.UnityPlayerActivity#1
+06-12 15:52:23.175 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: Relayout returned: old=[0,0][1080,1920] new=[0,0][1080,1920] result=0x7 surface={valid=true 3666814976} changed=true
+06-12 15:52:23.192 28420-28456/? I/Unity: SystemInfo CPU = ARMv7 VFPv3 NEON, Cores = 8, Memory = 3533mb
+    SystemInfo ARM big.LITTLE configuration: 4 big (mask: 240), 4 little (mask: 15)
+06-12 15:52:23.193 5039-23509/? V/WindowManager: finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{1d56543 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity} in Surface(name=com.example.fliptest/com.unity3d.player.UnityPlayerActivity)
+06-12 15:52:23.193 28420-28456/? I/Unity: ApplicationInfo com.example.fliptest version 1.0 build 7c7674f8-b299-4b4b-bfde-407229a7c6d0
+    Built from '2018.1/release' branch, Version '2018.1.2f1 (a46d718d282d)', Build type 'Release', Scripting Backend 'il2cpp'
+06-12 15:52:23.203 5039-5961/? V/WindowManager: Relayout Window{1d56543 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity}: viewVisibility=0 req=1080x1920 WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#80810580 pfl=0x20000 fmt=-3 wanim=0x10302fd vsysui=0x1706 sysuil=true needsMenuKey=2 colorMode=0 naviIconColor=0}
+06-12 15:52:23.206 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: Relayout returned: old=[0,0][1080,1920] new=[0,0][1080,1920] result=0x1 surface={valid=true 3666814976} changed=false
+06-12 15:52:23.209 5039-5138/? I/WindowManager: Destroying surface Surface(name=com.example.fliptest/com.unity3d.player.UnityPlayerActivity) called by com.android.server.wm.WindowStateAnimator.destroyDeferredSurfaceLocked:1023 com.android.server.wm.WindowStateAnimator.destroyPreservedSurfaceLocked:667 com.android.server.wm.WindowManagerService.destroyPreservedSurfaceLocked:6179 com.android.server.wm.WindowAnimator.animate:300 com.android.server.wm.WindowAnimator.lambda$-com_android_server_wm_WindowAnimator_4294:111 com.android.server.wm.-$Lambda$OQfQhd_xsxt9hoLAjIbVfOwa-jY.$m$0:4 com.android.server.wm.-$Lambda$OQfQhd_xsxt9hoLAjIbVfOwa-jY.doFrame:0 android.view.Choreographer$CallbackRecord.run:909 
+06-12 15:52:23.209 3194-3467/? I/SurfaceFlinger: id=2924 Removed com.example.fliptest/com.unity3d.player.UnityPlayerActivity#0 (3/8)
+    id=2924 Removed com.example.fliptest/com.unity3d.player.UnityPlayerActivity#0 (-2/8)
+06-12 15:52:23.210 5039-5063/? I/ActivityManager: Displayed com.example.fliptest/com.unity3d.player.UnityPlayerActivity: +276ms
+06-12 15:52:23.218 3194-3194/? I/Layer: id=2924 onRemoved com.example.fliptest/com.unity3d.player.UnityPlayerActivity#0 
+06-12 15:52:23.222 3194-3194/? D/SurfaceFlinger:   Display[0] configurations (* current):
+        * 0: 1440x2560, xdpi=537.882019, ydpi=532.982971, refresh=16949152
+      numHwLayers=6, flags=00000000
+        type   |  handle  | hint | flag | tr | blnd |   format    |     source crop (l,t,r,b)      |          frame         | name 
+    -----------+----------+------+------+----+------+-------------+--------------------------------+------------------------+------
+           HWC | 700b4de900 | 0000 | 0000 | 00 | 0100 | RGBA_8888   |    0.0,    0.0,  270.0,  480.0 |    0,    0, 1080, 1920 | com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity#0
+           HWC | 700bb07240 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |  121.0,  215.0,  959.0, 1704.0 |    0,    0, 1080, 1920 | com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity#0
+          GLES | 700fc27240 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1080.0, 1920.0 |   32,   57, 1048, 1863 | com.example.fliptest/com.unity3d.player.UnityPlayerActivity#1
+          GLES | 
+    700bbfc780 | 0000 | 0020 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1080.0, 1920.0 |   32,   57, 1048, 1863 | Splash Screen com.example.fliptest#0
+           HWC | 700bb09100 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0,   67.0,  359.0 | 1013,  423, 1080,  782 | com.samsung.android.app.cocktailbarservice/com.samsung.android.app.cocktailbarservice.CocktailBarService#0
+     FB TARGET | 700bdf5f00 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1440.0, 2560.0 |    0,    0, 1440, 2560 | HWC_FRAMEBUFFER_TARGET
+06-12 15:52:23.339 28420-28456/? E/Unity: Unable to find unitygar
+06-12 15:52:23.352 28420-28456/? D/Unity:  GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_
+    to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 GL_EXT_shader_pixel_local_storage GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ARM_mali_program_binary GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_texture_storage_multisample_2d_array GL_OES_shader_image_atomic GL_EXT_robustness GL_EXT_draw_buffers_indexed GL_OES_draw_buffers_indexed GL_EXT_texture_border_clamp GL_OES_texture_border_clamp GL_EXT_texture_cube_map_array GL_OES_texture_cube_map_array GL_OES_sample_variables GL_OES_sample_shading GL_OES_shader_multisample_interpolation GL_EXT_shader_io_blocks GL_OES_shader_io_blocks GL_EXT_tessellation_shader GL_OES_tessellation_shader GL_EXT_primitive_bounding_box GL_OES_primitive_bounding_box GL_EXT_geometry_shader GL_OES_geometry_shader GL_ANDROID_extension_pack_es31a GL_EXT_gpu_shader5 GL_OES_gpu_shader5 GL_EXT_texture
+    _buffer GL_OES_texture_buffer GL_EXT_copy_image GL_OES_copy_image GL_EXT_shader_non_constant_global_initializers GL_EXT_color_buffer_half_float GL_EXT_color_buffer_float GL_EXT_YUV_target GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_KHR_robustness GL_KHR_robust_buffer_access_behavior GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_EXT_protected_textures GL_EXT_buffer_storage
+06-12 15:52:23.388 3194-3194/? D/SurfaceFlinger:   Display[0] configurations (* current):
+        * 0: 1440x2560, xdpi=537.882019, ydpi=532.982971, refresh=16949152
+      numHwLayers=5, flags=00000000
+        type   |  handle  | hint | flag | tr | blnd |   format    |     source crop (l,t,r,b)      |          frame         | name 
+    -----------+----------+------+------+----+------+-------------+--------------------------------+------------------------+------
+           HWC | 700b4de900 | 0000 | 0000 | 00 | 0100 | RGBA_8888   |    0.0,    0.0,  270.0,  480.0 |    0,    0, 1080, 1920 | com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity#0
+           HWC | 700bb07240 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |  176.0,  312.0,  905.0, 1608.0 |    1,    0, 1080, 1920 | com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity#0
+          GLES | 700fc27240 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1080.0, 1920.0 |    2,    4, 1078, 1917 | com.example.fliptest/com.unity3d.player.UnityPlayerActivity#1
+           HWC | 
+    700bb09100 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0,   67.0,  359.0 | 1013,  423, 1080,  782 | com.samsung.android.app.cocktailbarservice/com.samsung.android.app.cocktailbarservice.CocktailBarService#0
+     FB TARGET | 700bdf5e40 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1440.0, 2560.0 |    0,    0, 1440, 2560 | HWC_FRAMEBUFFER_TARGET
+06-12 15:52:23.474 3194-3194/? D/SurfaceFlinger:   Display[0] configurations (* current):
+        * 0: 1440x2560, xdpi=537.882019, ydpi=532.982971, refresh=16949152
+      numHwLayers=4, flags=00000000
+        type   |  handle  | hint | flag | tr | blnd |   format    |     source crop (l,t,r,b)      |          frame         | name 
+    -----------+----------+------+------+----+------+-------------+--------------------------------+------------------------+------
+           HWC | 700bbc50c0 | 0000 | 0020 | 00 | 0100 | RGBx_8888   |  420.0,    0.0, 1500.0, 1920.0 |    0,    0, 1080, 1920 | com.android.systemui.ImageWallpaper#0
+           HWC | 700fc27240 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1080.0, 1920.0 |    0,    0, 1080, 1920 | com.example.fliptest/com.unity3d.player.UnityPlayerActivity#1
+           HWC | 700bb09100 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0,   67.0,  359.0 | 1013,  423, 1080,  782 | com.samsung.android.app.cocktailbarservice/com.samsung.android.app.cocktailbarservice.CocktailBarService#0
+     FB TARGET | 700bdf5d80 | 0000 | 0000 | 00 |
+     0105 | RGBA_8888   |    0.0,    0.0, 1440.0, 2560.0 |    0,    0, 1440, 2560 | HWC_FRAMEBUFFER_TARGET
+06-12 15:52:23.507 3194-3194/? D/SurfaceFlinger:   Display[0] configurations (* current):
+        * 0: 1440x2560, xdpi=537.882019, ydpi=532.982971, refresh=16949152
+      numHwLayers=4, flags=00000000
+        type   |  handle  | hint | flag | tr | blnd |   format    |     source crop (l,t,r,b)      |          frame         | name 
+    -----------+----------+------+------+----+------+-------------+--------------------------------+------------------------+------
+           HWC | 700bbc5300 | 0000 | 0000 | 00 | 0100 | RGB_565     |    0.0,    0.0, 1080.0, 1920.0 |    0,    0, 1080, 1920 | SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0#0
+           HWC | 700fc27240 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1080.0, 1920.0 |    0,    0, 1080, 1920 | com.example.fliptest/com.unity3d.player.UnityPlayerActivity#1
+           HWC | 700bb09100 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0,   67.0,  359.0 | 1013,  423, 1080,  782 | com.samsung.android.app.cocktailbarservice/com.samsung.android.app.cocktailbarservice.CocktailBarServic
+    e#0
+     FB TARGET | 700bdf5d80 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1440.0, 2560.0 |    0,    0, 1440, 2560 | HWC_FRAMEBUFFER_TARGET
+06-12 15:52:23.661 5039-5185/? D/MdnieScenarioControlService:  packageName : com.example.fliptest    className : com.unity3d.player.UnityPlayerActivity
+06-12 15:52:23.703 3194-3194/? D/SurfaceFlinger:   Display[0] configurations (* current):
+        * 0: 1440x2560, xdpi=537.882019, ydpi=532.982971, refresh=16949152
+      numHwLayers=3, flags=00000000
+        type   |  handle  | hint | flag | tr | blnd |   format    |     source crop (l,t,r,b)      |          frame         | name 
+    -----------+----------+------+------+----+------+-------------+--------------------------------+------------------------+------
+           HWC | 700bbc5300 | 0000 | 0000 | 00 | 0100 | RGB_565     |    0.0,    0.0, 1080.0, 1920.0 |    0,    0, 1080, 1920 | SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0#0
+           HWC | 700bb09100 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0,   67.0,  359.0 | 1013,  423, 1080,  782 | com.samsung.android.app.cocktailbarservice/com.samsung.android.app.cocktailbarservice.CocktailBarService#0
+     FB TARGET | 700bdf5d80 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1440.0, 2560.0 |    0,    0, 1440, 2560 | HWC_FRAMEBUFFER_TARGET
+06-12 15:52:27.540 5039-5946/? V/WindowManager: Relayout Window{1d56543 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity}: viewVisibility=0 req=1080x1920 WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#80810500 pfl=0x20000 fmt=-3 wanim=0x10302fd vsysui=0x1706 sysuil=true needsMenuKey=2 colorMode=0 naviIconColor=0}
+06-12 15:52:27.553 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: Relayout returned: old=[0,0][1080,1920] new=[0,0][1080,1920] result=0x1 surface={valid=true 3666814976} changed=false
+06-12 15:52:27.573 28420-28456/? I/ArPresto: ArCoreUnity_setArPrestoInitialized
+06-12 15:52:27.576 28420-28456/? I/ArPresto: ArCoreUnity_getJniInfo
+06-12 15:52:27.939 8747-8759/? I/TrayUsageStatesWatcher: notePauseComponent : ComponentInfo{com.example.fliptest/com.unity3d.player.UnityPlayerActivity}
+06-12 15:52:27.943 28420-28420/? I/ArPresto: ArCoreUnity_onUnityPlayerPause
+    ArPresto_handleActivityPause
+06-12 15:52:28.021 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: MSG_WINDOW_FOCUS_CHANGED 0
+06-12 15:52:28.207 5039-5838/? V/WindowManager: Relayout Window{1d56543 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity}: viewVisibility=0 req=1080x1920 WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#80810500 pfl=0x20000 fmt=-3 wanim=0x10302fd vsysui=0x1700 sysuil=true needsMenuKey=2 colorMode=0 naviIconColor=0}
+06-12 15:52:28.209 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: Relayout returned: old=[0,0][1080,1920] new=[0,0][1080,1920] result=0x1 surface={valid=true 3666814976} changed=false
+06-12 15:52:28.291 3194-3194/? D/SurfaceFlinger:   Display[0] configurations (* current):
+        * 0: 1440x2560, xdpi=537.882019, ydpi=532.982971, refresh=16949152
+      numHwLayers=4, flags=00000000
+        type   |  handle  | hint | flag | tr | blnd |   format    |     source crop (l,t,r,b)      |          frame         | name 
+    -----------+----------+------+------+----+------+-------------+--------------------------------+------------------------+------
+           HWC | 700fc27900 | 0000 | 0000 | 00 | 0100 | RGB_565     |    0.0,    0.0, 1080.0, 1920.0 |    0,    0, 1080, 1920 | SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0#0
+           HWC | 700bb07240 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1027.0, 1860.0 |   66,  104, 1011, 1816 | com.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity#0
+           HWC | 700bb09100 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0,   67.0,  359.0 | 1013,  423, 1080,  782 | com.samsung.android.app.cocktailbarservice/com.samsung.andr
+    oid.app.cocktailbarservice.CocktailBarService#0
+     FB TARGET | 700bdf5d80 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1440.0, 2560.0 |    0,    0, 1440, 2560 | HWC_FRAMEBUFFER_TARGET
+06-12 15:52:28.309 3194-3194/? D/SurfaceFlinger:   Display[0] configurations (* current):
+        * 0: 1440x2560, xdpi=537.882019, ydpi=532.982971, refresh=16949152
+      numHwLayers=5, flags=00000000
+        type   |  handle  | hint | flag | tr | blnd |   format    |     source crop (l,t,r,b)      |          frame         | name 
+    -----------+----------+------+------+----+------+-------------+--------------------------------+------------------------+------
+           HWC | 700fc27900 | 0000 | 0000 | 00 | 0100 | RGB_565     |    0.0,    0.0, 1080.0, 1920.0 |    0,    0, 1080, 1920 | SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0#0
+          GLES | 00000000 | 0000 | 0200 | 00 | 0105 | ? ffffffff  |   -0.2,   -0.2,   -0.8,   -0.8 |    0,    0, 1080, 1920 | DimLayerController/Stack=0#0
+           HWC | 700bb07240 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1027.0, 1860.0 |   57,   86, 1022, 1834 | com.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity#0
+           HWC | 700bb09100 | 0000 |
+     0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0,   67.0,  359.0 | 1013,  423, 1080,  782 | com.samsung.android.app.cocktailbarservice/com.samsung.android.app.cocktailbarservice.CocktailBarService#0
+     FB TARGET | 700bdf5f00 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1440.0, 2560.0 |    0,    0, 1440, 2560 | HWC_FRAMEBUFFER_TARGET
+06-12 15:52:29.225 5039-17295/? V/WindowManager: Relayout Window{1d56543 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity}: viewVisibility=0 req=1080x1920 WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#80810500 pfl=0x20000 fmt=-3 wanim=0x10302fd vsysui=0x1706 sysuil=true needsMenuKey=2 colorMode=0 naviIconColor=0}
+06-12 15:52:29.234 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: Relayout returned: old=[0,0][1080,1920] new=[0,0][1080,1920] result=0x1 surface={valid=true 3666814976} changed=false
+06-12 15:52:29.938 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+06-12 15:52:29.943 5039-5468/? D/GameManagerService: handleForegroundChange(). pkgName: com.example.fliptest, clsName: com.unity3d.player.UnityPlayerActivity,FgActivityName:com.example.fliptest/com.unity3d.player.UnityPlayerActivity
+06-12 15:52:29.944 8747-8759/? I/TrayUsageStatesWatcher: noteResumeComponent : ComponentInfo{com.example.fliptest/com.unity3d.player.UnityPlayerActivity}
+06-12 15:52:29.956 28420-28420/? I/ArPresto: ArCoreUnity_onUnityPlayerResume
+    ArPresto_handleActivityResume
+06-12 15:52:30.093 5039-5185/? D/MdnieScenarioControlService:  packageName : com.example.fliptest    className : com.unity3d.player.UnityPlayerActivity
+06-12 15:52:30.208 3194-3194/? D/SurfaceFlinger:   Display[0] configurations (* current):
+        * 0: 1440x2560, xdpi=537.882019, ydpi=532.982971, refresh=16949152
+      numHwLayers=3, flags=00000000
+        type   |  handle  | hint | flag | tr | blnd |   format    |     source crop (l,t,r,b)      |          frame         | name 
+    -----------+----------+------+------+----+------+-------------+--------------------------------+------------------------+------
+           HWC | 700fc27600 | 0000 | 0000 | 00 | 0100 | RGB_565     |    0.0,    0.0, 1080.0, 1920.0 |    0,    0, 1080, 1920 | SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0#0
+           HWC | 700bb09100 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0,   67.0,  359.0 | 1013,  423, 1080,  782 | com.samsung.android.app.cocktailbarservice/com.samsung.android.app.cocktailbarservice.CocktailBarService#0
+     FB TARGET | 700bdf5e40 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1440.0, 2560.0 |    0,    0, 1440, 2560 | HWC_FRAMEBUFFER_TARGET
+06-12 15:52:30.315 28420-28456/? I/chatty: uid=10242(u0_a242) UnityMain identical 2 lines
+06-12 15:52:33.098 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: ViewPostIme pointer 0
+06-12 15:52:33.147 28420-28456/? I/Unity: Flip. New scale: (-1.0, 1.0, 1.0)
+    UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+    UnityEngine.Logger:LogFormat(LogType, String, Object[])
+    UnityEngine.Debug:LogFormat(String, Object[])
+    Flip:Update()
+     
+    (Filename: ./Runtime/Export/Debug.bindings.h Line: 43)
+06-12 15:52:33.156 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: ViewPostIme pointer 1
+06-12 15:52:33.163 28420-28456/? W/Unity: BoxColliders does not support negative scale or size.
+    The effective box size has been forced positive and is likely to give unexpected collision geometry.
+    If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Cube"
+     
+    (Filename:  Line: 0)
+06-12 15:52:34.709 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: ViewPostIme pointer 0
+06-12 15:52:34.766 28420-28456/? I/Unity: Flip. New scale: (1.0, 1.0, 1.0)
+    UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+    UnityEngine.Logger:LogFormat(LogType, String, Object[])
+    UnityEngine.Debug:LogFormat(String, Object[])
+    Flip:Update()
+     
+    (Filename: ./Runtime/Export/Debug.bindings.h Line: 43)
+06-12 15:52:34.777 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: ViewPostIme pointer 1
+06-12 15:52:36.534 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1080, 1920) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=1
+06-12 15:52:36.536 3194-3194/? D/SurfaceFlinger:   Display[0] configurations (* current):
+        * 0: 1440x2560, xdpi=537.882019, ydpi=532.982971, refresh=16949152
+      numHwLayers=4, flags=00000000
+        type   |  handle  | hint | flag | tr | blnd |   format    |     source crop (l,t,r,b)      |          frame         | name 
+    -----------+----------+------+------+----+------+-------------+--------------------------------+------------------------+------
+           HWC | 700fc27300 | 0000 | 0000 | 03 | 0100 | RGB_565     |    0.0,    0.0, 1080.0, 1920.0 |    0,    0, 1080, 1920 | SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0#0
+           HWC | 700bb09100 | 0000 | 0000 | 03 | 0105 | RGBA_8888   |    0.0,    0.0,   67.0,  359.0 |    0, 1138,   67, 1497 | com.samsung.android.app.cocktailbarservice/com.samsung.android.app.cocktailbarservice.CocktailBarService#0
+           HWC | 700fc27e40 | 0000 | 0100 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1080.0, 1920.0 |    0,    0, 1080, 1920 | ScreenshotSurface#0
+     FB TARGET | 700bdf5e40 | 0000 | 0000 
+    | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1440.0, 2560.0 |    0,    0, 1440, 2560 | HWC_FRAMEBUFFER_TARGET
+06-12 15:52:36.564 5039-17401/? V/WindowManager: Relayout Window{1d56543 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity}: viewVisibility=0 req=1080x1920 WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#80810500 pfl=0x20000 fmt=-3 wanim=0x10302fd vsysui=0x1706 sysuil=true needsMenuKey=2 colorMode=0 naviIconColor=0}
+06-12 15:52:36.567 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: Relayout returned: old=[0,0][1080,1920] new=[0,0][1080,1920] result=0x3 surface={valid=true 3666814976} changed=false
+06-12 15:52:36.573 5039-17401/? V/WindowManager: finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{1d56543 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity} in Surface(name=com.example.fliptest/com.unity3d.player.UnityPlayerActivity)
+06-12 15:52:36.652 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1920, 1080) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=2
+06-12 15:52:36.672 5039-13974/? V/WindowManager: Relayout Window{1d56543 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity}: viewVisibility=0 req=1920x1080 WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#80810500 pfl=0x20000 fmt=-3 wanim=0x10302fd vsysui=0x1706 sysuil=true needsMenuKey=2 colorMode=0 naviIconColor=0}
+06-12 15:52:36.682 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: Relayout returned: old=[0,0][1920,1080] new=[0,0][1920,1080] result=0x23 surface={valid=true 3666814976} changed=false
+06-12 15:52:36.682 28420-28420/? D/SurfaceView: BG hide() Surface(name=Background for - SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0) false true android.view.SurfaceView{bce0aa2 VFE...... .F....ID 0,0-1920,1080}
+06-12 15:52:36.717 5039-13974/? V/WindowManager: finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{1d56543 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity} in Surface(name=com.example.fliptest/com.unity3d.player.UnityPlayerActivity)
+06-12 15:52:36.718 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1920, 1080) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=2
+06-12 15:52:36.733 5039-17295/? V/WindowManager: Relayout Window{1d56543 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity}: viewVisibility=0 req=1920x1080 WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#80810500 pfl=0x20000 fmt=-3 wanim=0x10302fd vsysui=0x1706 sysuil=true needsMenuKey=2 colorMode=0 naviIconColor=0}
+06-12 15:52:36.742 28420-28420/? D/ViewRootImpl@9b1c497[UnityPlayerActivity]: Relayout returned: old=[0,0][1920,1080] new=[0,0][1920,1080] result=0x1 surface={valid=true 3666814976} changed=false
+06-12 15:52:36.849 3194-3194/? D/SurfaceFlinger:   Display[0] configurations (* current):
+        * 0: 1440x2560, xdpi=537.882019, ydpi=532.982971, refresh=16949152
+      numHwLayers=3, flags=00000000
+        type   |  handle  | hint | flag | tr | blnd |   format    |     source crop (l,t,r,b)      |          frame         | name 
+    -----------+----------+------+------+----+------+-------------+--------------------------------+------------------------+------
+           HWC | 700fc27000 | 0000 | 0000 | 07 | 0100 | RGB_565     |    0.0,  421.0, 1080.0, 1499.0 |    0,  419, 1080, 1501 | SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0#0
+           HWC | 700fc27e40 | 0000 | 0100 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1080.0, 1920.0 |    0,    0, 1080, 1920 | ScreenshotSurface#0
+     FB TARGET | 700bdf5e40 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1440.0, 2560.0 |    0,    0, 1440, 2560 | HWC_FRAMEBUFFER_TARGET
+06-12 15:52:36.870 3194-3194/? D/SurfaceFlinger:   Display[0] configurations (* current):
+        * 0: 1440x2560, xdpi=537.882019, ydpi=532.982971, refresh=16949152
+      numHwLayers=7, flags=00000000
+        type   |  handle  | hint | flag | tr | blnd |   format    |     source crop (l,t,r,b)      |          frame         | name 
+    -----------+----------+------+------+----+------+-------------+--------------------------------+------------------------+------
+          GLES | 700fc27000 | 0000 | 0001 | 00 | 0100 | RGB_565     |    0.0,  203.0, 1080.0, 1717.0 |    0,  215, 1080, 1704 | SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0#0
+          GLES | 700fc27e40 | 0000 | 0101 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1080.0, 1920.0 |    0,    0, 1080, 1920 | ScreenshotSurface#0
+          GLES | 00000000 | 0000 | 0201 | 00 | 0105 | ? ffffffff  |   -0.4,   -0.9,   -0.9,   -1.0 |   37,    0, 1080,  219 | BlackSurface#0
+          GLES | 00000000 | 0000 | 0201 | 00 | 0105 | ? ffffffff  |   -0.9,   -0.0,   -1.0,   -0.6 |    0,    0,  193, 1800 | BlackSurfa
+06-12 15:52:37.169 3194-3194/? D/SurfaceFlinger:   Display[0] configurations (* current):
+        * 0: 1440x2560, xdpi=537.882019, ydpi=532.982971, refresh=16949152
+      numHwLayers=6, flags=00000000
+        type   |  handle  | hint | flag | tr | blnd |   format    |     source crop (l,t,r,b)      |          frame         | name 
+    -----------+----------+------+------+----+------+-------------+--------------------------------+------------------------+------
+          GLES | 700fc27000 | 0000 | 0001 | 00 | 0100 | RGB_565     |    0.0,    0.0, 1080.0, 1920.0 |    0,    0, 1080, 1920 | SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0#0
+          GLES | 00000000 | 0000 | 0201 | 00 | 0105 | ? ffffffff  |   -0.5,   -1.0,   -1.0,   -1.0 | 1079,    0, 1080, 1919 | BlackSurface#0
+          GLES | 00000000 | 0000 | 0201 | 00 | 0105 | ? ffffffff  |   -1.0,    0.0,   -1.0,   -0.5 |    0,    0, 1079,    1 | BlackSurface#0
+          GLES | 00000000 | 0000 | 0201 | 00 | 0105 | ? ffffffff  |    0.0,    0.0,   -0.5,   -0.0 |    0,    1,    1, 1920 | BlackSurface#0
+      
+        GLES | 00000000 | 0000 | 0201 | 00 | 0105 | ? ffffffff  |    0.0,   -0.5,   -0.0,   -1.0 |    1, 1919, 1080, 1920 | BlackSurface#0
+     FB TARGET | 700bdf5d80 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1440.0, 2560.0 |    0,    0, 1440, 2560 | HWC_FRAMEBUFFER_TARGET
+06-12 15:52:37.197 3194-3194/? D/SurfaceFlinger:   Display[0] configurations (* current):
+        * 0: 1440x2560, xdpi=537.882019, ydpi=532.982971, refresh=16949152
+      numHwLayers=2, flags=00000000
+        type   |  handle  | hint | flag | tr | blnd |   format    |     source crop (l,t,r,b)      |          frame         | name 
+    -----------+----------+------+------+----+------+-------------+--------------------------------+------------------------+------
+           HWC | 700fc27900 | 0000 | 0000 | 00 | 0100 | RGB_565     |    1.0,    1.0, 1079.0, 1919.0 |    0,    0, 1080, 1920 | SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0#0
+     FB TARGET | 700bdf5f00 | 0000 | 0000 | 00 | 0105 | RGBA_8888   |    0.0,    0.0, 1440.0, 2560.0 |    0,    0, 1440, 2560 | HWC_FRAMEBUFFER_TARGET
+06-12 15:52:38.363 5039-5731/? W/ActivityManager: Force removing ActivityRecord{c836b92 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity t206}: app died, no saved state
+06-12 15:52:38.364 8747-8759/? I/TrayUsageStatesWatcher: notePauseComponent : ComponentInfo{com.example.fliptest/com.unity3d.player.UnityPlayerActivity}
+06-12 15:52:38.368 5039-5731/? I/WindowManager: Failed to capture screenshot of Token{3a77963 ActivityRecord{c836b92 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity t206 f}} appWin=Window{1d56543 u0 com.example.fliptest/com.unity3d.player.UnityPlayerActivity} drawState=4
+06-12 15:52:38.372 5039-5731/? I/WindowManager: Destroying surface Surface(name=com.example.fliptest/com.unity3d.player.UnityPlayerActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2501 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:985 com.android.server.wm.WindowState.removeImmediately:2403 com.android.server.wm.WindowState.removeIfPossible:2605 com.android.server.wm.WindowState.removeIfPossible:2441 com.android.server.wm.WindowToken.removeAllWindowsIfPossible:143 com.android.server.wm.AppWindowToken.removeIfPossible:606 com.android.server.wm.AppWindowToken.onRemovedFromDisplay:674 
+06-12 15:52:38.372 3194-4264/? I/SurfaceFlinger: id=2927 Removed com.example.fliptest/com.unity3d.player.UnityPlayerActivity#1 (1/4)
+06-12 15:52:38.373 3194-4264/? I/SurfaceFlinger: id=2927 Removed com.example.fliptest/com.unity3d.player.UnityPlayerActivity#1 (-2/4)
+06-12 15:52:38.380 3194-3194/? I/Layer: id=2927 onRemoved com.example.fliptest/com.unity3d.player.UnityPlayerActivity#1 
+    id=2926 onRemoved Background for - SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0#0 
+06-12 15:52:38.381 3194-3194/? I/Layer: id=2925 onRemoved SurfaceView - com.example.fliptest/com.unity3d.player.UnityPlayerActivity@bce0aa2@0#0 
